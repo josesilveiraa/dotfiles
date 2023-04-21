@@ -15,7 +15,6 @@ bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
 ## Rules
-bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a firefox desktop='^2' follow=on
 bspc rule -a lutris state=floating
 bspc rule -a mpv state=fullscreen
