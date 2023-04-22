@@ -9,14 +9,16 @@ bspc config border_width         1
 bspc config window_gap          12
 
 ## Configs
-bspc config split_ratio          0.52
+bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
 ## Rules
 bspc rule -a firefox desktop='^2' follow=on
-bspc rule -a lutris state=floating
+bspc rule -a Lutris state=floating
 bspc rule -a mpv state=fullscreen
+bspc rule -a obs desktop='^5' follow=on
+bspc rule -a PrismLauncher state=floating
 
 $HOME/.config/bspwm/autostart.sh &
